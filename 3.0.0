@@ -1,0 +1,41 @@
+Looking in links: https://download.openmmlab.com/mmcv/dist/cu118/torch2.0.0/index.html
+Collecting mmcv
+  Downloading https://download.openmmlab.com/mmcv/dist/cu118/torch2.0.0/mmcv-2.0.1-cp310-cp310-win_amd64.whl (35.4 MB)
+Collecting mmdet
+  Downloading mmdet-3.1.0-py3-none-any.whl (2.0 MB)
+Requirement already satisfied: opencv-python>=3 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmcv) (4.8.0.76)
+Requirement already satisfied: yapf in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmcv) (0.40.1)
+Requirement already satisfied: Pillow in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmcv) (9.5.0)
+Requirement already satisfied: addict in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmcv) (2.4.0)
+Requirement already satisfied: pyyaml in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmcv) (6.0.1)
+Collecting mmengine>=0.3.0
+  Downloading mmengine-0.8.4-py3-none-any.whl (437 kB)
+Requirement already satisfied: regex in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmcv) (2023.8.8)
+Requirement already satisfied: numpy in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmcv) (1.23.5)
+Requirement already satisfied: packaging in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmcv) (23.1)
+Requirement already satisfied: six in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmdet) (1.16.0)
+Requirement already satisfied: pycocotools in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmdet) (2.0.7)
+Collecting shapely
+  Downloading shapely-2.0.1-cp310-cp310-win_amd64.whl (1.4 MB)
+Requirement already satisfied: scipy in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmdet) (1.11.2)
+Collecting terminaltables
+  Downloading terminaltables-3.1.10-py2.py3-none-any.whl (15 kB)
+Requirement already satisfied: matplotlib in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmdet) (3.8.0)
+Collecting termcolor
+  Downloading termcolor-2.3.0-py3-none-any.whl (6.9 kB)
+Requirement already satisfied: rich in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from mmengine>=0.3.0->mmcv) (13.4.2)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from matplotlib->mmdet) (3.1.1)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from matplotlib->mmdet) (1.1.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from matplotlib->mmdet) (4.42.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from matplotlib->mmdet) (1.4.5)
+Requirement already satisfied: cycler>=0.10 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from matplotlib->mmdet) (0.11.0)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from matplotlib->mmdet) (2.8.2)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (2.16.1)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (3.0.0)
+Requirement already satisfied: mdurl~=0.1 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from markdown-it-py>=2.2.0->rich->mmengine>=0.3.0->mmcv) (0.1.2)
+Requirement already satisfied: platformdirs>=3.5.1 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from yapf->mmcv) (3.10.0)
+Requirement already satisfied: tomli>=2.0.1 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from yapf->mmcv) (2.0.1)
+Requirement already satisfied: importlib-metadata>=6.6.0 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from yapf->mmcv) (6.8.0)
+Requirement already satisfied: zipp>=0.5 in c:\users\yue_c\onedrive\desktop\desktop2\deeplearning\new\stable-diffusion-webui-master\venv\lib\site-packages (from importlib-metadata>=6.6.0->yapf->mmcv) (3.16.2)
+Installing collected packages: termcolor, mmengine, terminaltables, shapely, mmcv, mmdet
+Successfully installed mmcv-2.0.1 mmdet-3.1.0 mmengine-0.8.4 shapely-2.0.1 termcolor-2.3.0 terminaltables-3.1.10
